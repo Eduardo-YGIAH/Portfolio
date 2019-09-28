@@ -126,3 +126,28 @@ footer p {
   padding: 10px 30px 10px 30px;
   font-size: 16px;
 }
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+}
+.gallery img {
+  width: 400px;
+  height: auto;
+  margin: 20px 20px 60px 20px;
+  border: 1px solid #dddddd;
+}
+.imgCard {
+  position: relative;
+}
+.imgLabel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 180px;
+  left: 18px;
+  right: 18px;
+  height: 40px;
+  background-color: #4aaaa5;
+  color: white;
+}

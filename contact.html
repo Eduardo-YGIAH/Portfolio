@@ -25,7 +25,11 @@
       <h1>Contact</h1>
 
       <hr />
-      <form action="#">
+      <form
+        action="mailto:edu.neto@icloud.com?subject=Contact Request"
+        method="post"
+        enctype="text/plain"
+      >
         Name <br />
         <input
           class="singleLineTextInput"
@@ -42,7 +46,7 @@
         />
         Message <br />
         <textarea name="Message" id="message" cols="30" rows="10"></textarea>
-        <button class="btn" type="submit">Submit</button>
+        <input class="btn" type="submit" value="Submit" />
       </form>
 
       <div class="spacer"></div>
