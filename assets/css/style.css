@@ -31,6 +31,7 @@ nav .container {
   color: white;
   padding: 20px 10px 20px 10px;
   font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 18px;
 }
 .menu {
   display: flex;
@@ -126,33 +127,40 @@ footer p {
   padding: 10px 30px 10px 30px;
   font-size: 16px;
 }
+
+/* PORTFOLIO PAGE */
+
 .gallery {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
 }
 .gallery img {
-  width: 400px;
+  max-width: 420px;
   height: auto;
-  margin: 20px 20px 60px 20px;
   border: 1px solid #dddddd;
 }
 .imgCard {
   position: relative;
+  margin: 20px;
 }
 .imgLabel {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 180px;
-  left: 18px;
-  right: 18px;
-  height: 40px;
+  right: 0;
+  bottom: 10px;
+  left: 0px;
   background-color: #4aaaa5;
   color: white;
+  padding: 12px 0px 12px 0px;
 }
 
-@media only screen and (max-width: 600px) {
+/* MOBILE RESPONSIVE MEDIA QUERIES */
+
+@media only screen and (max-width: 782px) {
   .nav {
     display: flex;
     justify-content: center;
@@ -215,9 +223,29 @@ footer p {
   .spacer {
     height: 100px;
   }
+
+  .gallery img {
+    width: 280px;
+    height: auto;
+    border: 1px solid #dddddd;
+  }
+
+  .imgLabel {
+    font-size: 0.6rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 10px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0.3rem 0px 0.3rem 0px;
+  }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .nav {
     display: flex;
     justify-content: center;
@@ -232,19 +260,20 @@ footer p {
     background: #4aaaa5;
     color: white;
     font-family: "Georgia", Times, "Times New Roman", serif;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
   }
+
   .menu {
     display: flex;
     align-items: center;
     list-style: none;
   }
   .menu a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .menu-link-middle {
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
   }
   .card {
     background: white;
@@ -281,5 +310,10 @@ footer p {
   }
   .spacer {
     height: 100px;
+  }
+  .gallery img {
+    max-width: 340px;
+    height: auto;
+    border: 1px solid #dddddd;
   }
 }

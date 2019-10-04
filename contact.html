@@ -30,22 +30,29 @@
         method="post"
         enctype="text/plain"
       >
-        Name <br />
-        <input
-          class="singleLineTextInput"
-          type="text"
-          name="Name"
-          placeholder="John Smith"
-        />
-        Email <br />
-        <input
-          class="singleLineTextInput"
-          type="email"
-          name="Email"
-          placeholder="example@gmail.com"
-        />
-        Message <br />
-        <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+        <div class="name-input-wrapper">
+          <label for="name">Name</label><br />
+          <input
+            id="name"
+            class="singleLineTextInput"
+            type="text"
+            name="Name"
+            placeholder="John Smith"
+          />
+        </div>
+        <div class="email-input-wrapper">
+          <label for="email">Email</label><br />
+          <input
+            class="singleLineTextInput"
+            type="email"
+            name="Email"
+            placeholder="example@gmail.com"
+          />
+        </div>
+        <div class="message-input-wrapper">
+          <label for="message">Message</label>
+          <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+        </div>
         <input class="btn" type="submit" value="Submit" />
       </form>
 
