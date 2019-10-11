@@ -168,7 +168,7 @@ footer p {
     justify-content: center;
   }
 
-  nav .container {
+  .nav .container {
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -253,7 +253,7 @@ footer p {
     justify-content: center;
   }
 
-  nav .container {
+  .nav .container {
     width: 80%;
     display: flex;
     justify-content: space-between;
