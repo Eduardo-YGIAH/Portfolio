@@ -19,7 +19,7 @@ body {
   left: 0;
   z-index: 10;
 }
-nav .container {
+.nav .container {
   width: 960px;
   margin: auto;
   display: flex;
@@ -58,13 +58,13 @@ nav .container {
   padding: 10px 20px 10px 20px;
   margin-top: 140px;
 }
-h1 {
+.card h1 {
   font-family: "Georgia", Times, "Times New Roman", serif;
   color: #4aaaa5;
   padding: 10px 0 20px 0;
 }
 
-hr {
+.card hr {
   border: 0;
   height: 0;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
@@ -81,7 +81,7 @@ hr {
   height: auto;
   margin: 0 40px 40px 0;
 }
-p {
+.card p {
   line-height: 30px;
 }
 .spacer {
@@ -89,7 +89,7 @@ p {
   height: 140px;
   position: absolute;
 }
-footer {
+.footer {
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 60px;
@@ -101,7 +101,7 @@ footer {
   bottom: 0;
   left: 0;
 }
-footer p {
+.footer p {
   font-size: 12px;
   color: white;
 }
@@ -201,7 +201,7 @@ footer p {
     padding: 5px 10px 5px 10px;
     margin-top: 100px;
   }
-  h1 {
+  .card h1 {
     font-family: "Georgia", Times, "Times New Roman", serif;
     font-size: 1.2rem;
     color: #4aaaa5;
@@ -212,7 +212,7 @@ footer p {
     height: 30%;
     margin: 0 10px 10px 0;
   }
-  p {
+  .card p {
     font-size: 0.9rem;
     line-height: 1.6rem;
   }
@@ -289,7 +289,7 @@ footer p {
     padding: 5px 10px 5px 10px;
     margin-top: 100px;
   }
-  h1 {
+  .card h1 {
     font-family: "Georgia", Times, "Times New Roman", serif;
     font-size: 1.2rem;
     color: #4aaaa5;
@@ -300,7 +300,7 @@ footer p {
     height: 30%;
     margin: 0 10px 10px 0;
   }
-  p {
+  .card p {
     font-size: 0.9rem;
     line-height: 1.6rem;
   }
