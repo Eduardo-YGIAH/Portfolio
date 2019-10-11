@@ -146,6 +146,8 @@ footer p {
   margin: 20px;
 }
 .imgLabel {
+  font-size: 0.8em;
+  font-weight: 300;
   position: absolute;
   display: flex;
   align-items: center;
@@ -160,7 +162,7 @@ footer p {
 
 /* MOBILE RESPONSIVE MEDIA QUERIES */
 
-@media only screen and (max-width: 782px) {
+@media only screen and (max-width: 768px) {
   .nav {
     display: flex;
     justify-content: center;
@@ -231,7 +233,7 @@ footer p {
   }
 
   .imgLabel {
-    font-size: 0.6rem;
+    font-size: 0.75em;
     position: absolute;
     display: flex;
     align-items: center;
