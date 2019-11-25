@@ -6,7 +6,7 @@ In this readme file, I will also describe the technologies and aproaches taken w
 
 ## Preview
 
-[![Portfolio - Preview](https://res.cloudinary.com/ygiah/image/upload/v1569760605/bootcamp/portfolio/Screenshot_2019-09-29_at_13.35.19.png)](https://eduardo-ygiah.github.io/Portfolio/index.html)
+[![Portfolio - Preview](https://res.cloudinary.com/ygiah/image/upload/v1574712890/bootcamp/portfolio/portfolio.png)](https://eduardo-ygiah.github.io/Portfolio/index.html)
 
 **[View Live Preview](https://eduardo-ygiah.github.io/Portfolio/index.html)**
 
@@ -22,4 +22,4 @@ In this readme file, I will also describe the technologies and aproaches taken w
 
 This project will be updated frequently with new projects I will be making.
 
-Use the contact form in the website to get in touch if you would like to be notified when a new project is uploaded, if you have a request for a specific project or for any other reason.
+Use the contact form in the website to get in touch if you would like to reach out.
